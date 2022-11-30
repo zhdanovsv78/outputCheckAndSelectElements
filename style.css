@@ -1,0 +1,63 @@
+body {
+	background: #f1f1f1;
+}
+
+.container {
+	max-width: 700px;
+	margin: auto;
+	/* height: 100vh; */
+
+}
+
+.blockGroup, .blockGroup2 {
+	display: flex;
+}
+
+.blockGroup {
+	margin-bottom: 15px;
+}
+
+.blockCheck, .blockSelect {
+	background: lightgrey;
+	padding: 15px 20px;
+	width: 40%;
+}
+
+.spanTitle {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.changeActive {
+	pointer-events: none;
+	color: #AAA;
+	background: #F5F5F5;
+}
+
+
+.caption, .caption2 {
+	background: darkgrey;
+	padding: 15px 20px;
+	width: 60%;
+}
+
+.groupElements {
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.label1:hover,
+.label2:hover,
+.label3:hover {
+	cursor: pointer;
+	color: #888;
+}
+
+.btn, .btn2 {
+	padding: 10px 20px;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 10px;
+}

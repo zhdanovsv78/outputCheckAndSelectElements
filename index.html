@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Основы JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="blockGroup">
+			<div class="blockCheck">
+				<form class="formCheck">
+					<span class="spanTitle"><strong>Выберите фрукты:</strong></span>
+
+					<div class="groupElements">
+						<div class="groupCheck">
+							<input type="checkbox" class="checkbox1" id="check1">
+							<label class="label1" for="check1">Груши</label>
+							<input class='num1 changeActive' type="number" min="0" max="100" step="1" value="0" size="10">
+						</div>
+
+					</div>
+
+					<div class="groupElements">
+						<div class="groupCheck">
+							<input type="checkbox" class="checkbox2" id="check2">
+							<label class="label2" for="check2">Яблоки</label>
+							<input class='num2 changeActive' type="number" min="0" max="100" step="1" value="0" size="10">
+						</div>
+					</div>
+
+					<div class="groupElements">
+						<div class="groupCheck">
+							<input type="checkbox" class="checkbox3" id="check3">
+							<label class="label3" for="check3">Персики</label>
+							<input class='num3 changeActive' type="number" min="0" max="100" step="1" value="0" size="10">
+						</div>
+
+					</div>
+
+					<button class="btn" type="button">Check</button>
+				</form>
+			</div>
+
+			<div class="caption">
+				<textarea class="textArea" name="textarea" rows="12" cols="50"></textarea>
+			</div>
+
+		</div>
+
+
+		<div class="blockGroup2">
+			<div class="blockSelect">
+				<form class="formSelect">
+					<span class="spanTitle"><strong>Выберите ваш адрес:</strong></span>
+
+
+					<div class="groupElements">
+						<div class="groupSelect">
+							<label for="city">Город</label>
+							<select id="city">
+								<option value="Ижевск">Ижевск</option>
+								<option value="Сарапул">Сарапул</option>
+								<option value="Воткинск">Воткинск</option>
+								<option value="Глазов">Глазов</option>
+							</select>
+						</div>
+
+					</div>
+
+					<div class="groupElements">
+						<div class="groupSelect">
+							<label for="street">Улица</label>
+							<select id="street">
+								<option value="Ленина">Ленина</option>
+								<option value="Пушкинская">Пушкинская</option>
+								<option value="Советская">Советская</option>
+								<option value="Горького">Горького</option>
+							</select>
+						</div>
+
+					</div>
+
+					<div class="groupElements">
+						<div class="groupSelect">
+							<label for="numHouse">Номер дома</label>
+							<select id="numHouse">
+
+							</select>
+						</div>
+
+					</div>
+
+					<button class="btn2" type="button">Check</button>
+				</form>
+			</div>
+
+			<div class="caption2">
+				<textarea class="textArea2" name="textarea" rows="12" cols="50"></textarea>
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
